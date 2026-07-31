@@ -1,8 +1,28 @@
 aid: movopack
 name: Movopack
-description: Movopack is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Movopack is a Milan-based sustainability startup, founded in 2021 and backed by
+  Techstars, 360 Capital, and Greiner Innoventures, that provides reusable,
+  customizable packaging for e-commerce, retail, and B2B logistics. Its circular
+  system pairs branded reusable mailers with pre-paid return labels and QR-code
+  drop-off points, then handles quality checks, cleaning, and redistribution —
+  cutting packaging waste by up to 98% and CO2 emissions by 84% after repeated
+  reuse cycles. Movopack is a physical-product and reverse-logistics company and
+  does not currently publish a public developer API; this profile captures its
+  identity and domain-security posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/movopack/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/assets/XM2jR9pobNwac5EvN9vugULvxMM.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Sustainability
+- Packaging
+- Reusable Packaging
+- E-commerce
+- Logistics
+- Circular Economy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,14 @@ maintainers:
 common:
 - type: Website
   url: https://movopack.com/
+- type: Blog
+  url: https://movopack.com/blog
+- type: Support
+  url: https://movopack.com/get-in-touch
+- type: DomainSecurity
+  url: security/movopack-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
